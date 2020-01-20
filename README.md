@@ -92,7 +92,32 @@ of a recursive or incremental insertion algorithm.__
 1. Formulating the application in terms of precisely described, well-understood problems
 
 ### Combinatorial Objects
-1. 
+1. Computing properties can be linked to certain words:
+    - Permutations: arrangement, tour, ordering, sequence
+    - Subsets:      cluster, collection, committee, group, packaging, selection
+    - Trees:        hierarchy, dominance relationship, ancestor/descendant, taxonomy
+    - Graphs:       network, circuit, web, relationship
+    - Points:       sites, positions, data records, locations
+    - Polygons:     shapes, regions, configurations, boundaries
+    - Strings:      text, characters, patterns, labels
+    
+2. The act of modeling reduces the application to one of a small number of
+existing problems and structures, this is inherently constraining and certain
+details might not easily fit into the target problem.
+
+3. Certain problems can be modeled in several different ways, some better than others.
+
+4. __Modeling the application in terms of well-defined structures and algorithms
+is the most important single step towards a solution.__
+
+### Recursive Objects
+
+1. Permutations, subsets, trees, graphs, points, polygons and strings can be 
+thought of as recursive objects.
+
+2. Recursive descriptions of objects require both decomposition rules and basis cases.
+    - Basis cases are the specification of the smallest and simplest objects where 
+    decomposition stops.
 
 
 
